@@ -97,6 +97,8 @@ Go onto NodeJS App VM:
 * Go onto the IP:3000/posts to ensure MongoDB has connected:
   * http://172.187.154.192:3000/posts
 
+![alt text](image.png)
+
 
 
 

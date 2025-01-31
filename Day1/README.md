@@ -165,6 +165,16 @@ How to set up PM2 to run in the background
   * pm2 delete app.js
     * Deletes app from PM2 management
 
+### BLOCKER
+
+The database had connected when configuring the reverse proxy without specifying ports fine. When I installed and ran pm2, it would connect to the app but **NOT** the database.
+
+How did I resolve?
+
+* Had to restart pm2 with updated Env Variable with the following command:
+  * pm2 restart app --update-env
+* This has now allowed me to connect to the DB
+
 ### Create Database VM Image
 
 * SSH into the Database VM

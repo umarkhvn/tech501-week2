@@ -167,4 +167,6 @@ At this point, `ping` to the DB VM should be blocked, confirming the firewall is
 
 This ensures a **secure**, **scalable**, and **controlled** architecture where only necessary traffic reaches the database VM. 🚀
 
-
+### What is a CIDR Block?
+* Gives us a range of IP addresses
+* All share the same network prefixes

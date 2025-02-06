@@ -165,6 +165,6 @@ At this point, `ping` to the DB VM should be blocked, confirming the firewall is
 8. **Configure NVA & `iptables` firewall rules**
 9. **Restrict Database VM NSG rules**
 
-This ensures a **secure**, **scalable**, and **controlled** architecture where only necessary traffic reaches the database VM. 🚀
+This ensures a **secure**, **scalable**, and **controlled** architecture where only necessary traffic reaches the database VM.
 
 

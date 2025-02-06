@@ -1,1 +1,0 @@
-DevOps Week 2 documentation and simple NodeJS Test App 
